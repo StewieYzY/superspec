@@ -1,0 +1,48 @@
+MIT License
+
+Copyright (c) 2025 StewieYzY
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Acknowledgements
+
+SuperSpec is built upon the work of two open source projects:
+
+**OpenSpec** (https://github.com/Fission-AI/OpenSpec)
+SuperSpec adopts OpenSpec's Delta Spec artifact system, schema-driven artifact
+DAG, and change lifecycle (explore → propose → apply → archive). The WHAT/HOW
+separation principle and spec evolution cycle are derived directly from OpenSpec's
+design philosophy.
+
+**Superpowers** (https://github.com/obra/superpowers)
+SuperSpec adopts Superpowers' Iron Law discipline, skill-based workflow
+enforcement, subagent-driven development pattern, and verification-before-
+completion principle. The three-gear speed control and anti-rationalization
+infrastructure are inspired by Superpowers' approach to AI agent reliability.
+
+SuperSpec's contribution is the fusion of these two frameworks: wiring OpenSpec's
+persistent spec artifacts as the input and baseline for Superpowers' execution
+discipline, such that specs drive implementation, implementation is verified
+against specs, and specs evolve cleanly over time.
+
+Both upstream projects retain their respective copyrights and licenses.
+Users of SuperSpec should review and comply with the licenses of OpenSpec and
+Superpowers as well.
